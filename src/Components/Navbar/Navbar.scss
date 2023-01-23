@@ -1,0 +1,106 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-left {
+  display: flex;
+  flex-direction: column;
+  gap: 7.75px;
+  margin-top: 34px;
+  margin-left: 6.614vw;
+}
+
+.nav-left > span:nth-of-type(1) {
+  width: 48px;
+  height: 26px;
+  font-family: "Bouncy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  /* identical to box height */
+  letter-spacing: -0.105em;
+  background: linear-gradient(
+    90.3deg,
+    #ff0000 0.26%,
+    #ffa800 40.7%,
+    #ffd600 73.88%,
+    #ff3333 99.81%
+  );
+  //-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  //text-fill-color: transparent;
+  border: 2px solid #000000;
+}
+
+.nav-left > span:nth-of-type(2) {
+  margin-left: 1px;
+  width: 49px;
+  height: 26px;
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 129.3%;
+  color: #000000;
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: row;
+  gap: 56px;
+  margin-right: 6.48vw;
+}
+
+.nav-right > span:nth-of-type(1) {
+  width: 50px;
+  height: 26px;
+  margin-top: 43.75px;
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 129.3%;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.nav-right > button {
+  width: 99.15px;
+  height: 40px;
+  z-index: 1;
+  margin-right: 0.1vw;
+  margin-top: 32.21px;
+  background: #ffb800;
+  border: 1px solid #000000;
+  border-radius: 0px 0px 0px 12px;
+}
+
+button > span {
+  width: 67px;
+  height: 28px;
+  margin-left: 10px;
+  margin-top: 6.21px;
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.nav-right > span:nth-of-type(2) {
+  position: absolute;
+  top: 32px;
+  right: 6.48vw;
+  z-index: 0;
+  width: 99.05px;
+  height: 42.21px;
+  background: #000000;
+  border-radius: 0px 0px 0px 12px;
+}

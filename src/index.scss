@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "Bouncy";
+  src: local("Bouncy"),
+    url("../src/Assets/Fonts/Bouncy/Bouncy.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Iceland";
+  src: local("Iceland"),
+    url("../src/Assets/Fonts/Iceland/Iceland.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Komika Axis";
+  src: local("Komika Axis"),
+    url("../src/Assets/Fonts/komika_axis/KOMIKAX_.ttf") format("truetype");
+}

@@ -1,0 +1,67 @@
+div.home {
+  position: relative;
+  width: 1366px;
+  height: 150vh;
+  background-color: #ffe3ac;
+}
+
+div.homecontent > h2 {
+  width: 340px;
+  height: 80px;
+  margin-top: 63.25px;
+  margin-left: 538.9px;
+  font-family: "Komika Axis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 80px;
+  /* identical to box height */
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+div.homecontent > h1 {
+  width: 490px;
+  height: 80px;
+  margin-left: 469.34px;
+  margin-top: 16px;
+  font-family: "Komika Axis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 80px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+  background: linear-gradient(
+    90.3deg,
+    #ff0000 0.26%,
+    #ffa800 40.7%,
+    #ffd600 73.88%,
+    #ff3333 99.81%
+  );
+  //-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  //text-fill-color: transparent;
+  border: 8px solid #000000;
+}
+
+div.homecontent > h4 {
+  width: 498px;
+  height: 23px;
+  margin-left: 458.04px;
+  margin-top: 10px;
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 23px;
+  color: #000000;
+}
+
+div.homecontent > img.clown1 {
+  width: 176px;
+  height: 196px;
+  //margin-top: 324px;
+  margin-left: 985.65px;
+}
