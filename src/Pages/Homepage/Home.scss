@@ -1,7 +1,8 @@
 div.home {
   position: relative;
   width: 1366px;
-  height: 150vh;
+  height: auto;
+  z-index: 2;
   background-color: #ffe3ac;
 }
 
@@ -43,7 +44,8 @@ div.homecontent > h1 {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   //text-fill-color: transparent;
-  border: 8px solid #000000;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
 }
 
 div.homecontent > h4 {
@@ -62,6 +64,104 @@ div.homecontent > h4 {
 div.homecontent > img.clown1 {
   width: 176px;
   height: 196px;
-  //margin-top: 324px;
-  margin-left: 985.65px;
+  margin-top: -140.5px;
+  margin-left: 1055.65px;
+  z-index: 1;
+}
+
+.searchbar {
+  width: 725px;
+  height: 56px;
+  margin-left: 355.27px;
+  margin-top: 0px;
+  background: transparent;
+  border: 5px solid #000000;
+  border-radius: 57px;
+}
+
+.location {
+  position: absolute;
+  width: 22px;
+  height: 28px;
+  left: 375.83px;
+  top: 468px;
+}
+
+.searchbar::placeholder {
+  width: 134px;
+  height: 16px;
+  padding-left: 64.91px;
+  //text-indent: 64.91px;
+  padding-top: 20px;
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.searchbutton {
+  background: transparent;
+  border: none;
+}
+
+.searchbutton > .arr {
+  position: absolute;
+  width: 48px;
+  height: 45.6px;
+  z-index: 0;
+  top: 460px;
+  left: 1030.979px;
+}
+
+.searchbutton > .arrshad {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  z-index: -1;
+  top: 460.17px;
+  left: 1027.749px;
+}
+
+div.home > img.clown2 {
+  width: 589.26px;
+  height: 567.11px;
+  margin-left: -20px;
+  margin-top: -100px;
+}
+
+img.ell1 {
+  position: absolute;
+  width: 13.44px;
+  height: 13.44px;
+  left: 485.39px;
+  top: 708.67px;
+}
+
+img.ell2 {
+  position: absolute;
+  width: 23.77px;
+  height: 23.77px;
+  left: 525.39px;
+  top: 680.67px;
+}
+
+img.vec1 {
+  position: absolute;
+  width: 171.51px;
+  height: 145.35px;
+  left: 580.96px;
+  top: 585.51px;
+  border-radius: 39px;
+}
+
+img.laugh {
+  position: absolute;
+  width: 152.14px;
+  height: 60px;
+  left: 587.39px;
+  top: 626.26px;
+  transform: rotate(-15.96deg);
 }

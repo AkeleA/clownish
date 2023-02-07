@@ -1,0 +1,211 @@
+div.main {
+  width: 1366px;
+  height: auto;
+  background: #ffe3ac;
+  z-index: 0;
+}
+
+div.main-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 90.344px;
+
+  .name {
+    width: 48px;
+    height: 26px;
+    margin-top: 34px;
+    font-family: "Bouncy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+    letter-spacing: -0.145em;
+    background: linear-gradient(
+      90.3deg,
+      #ff0000 0.26%,
+      #ffa800 40.7%,
+      #ffd600 73.88%,
+      #ff3333 99.81%
+    );
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+}
+
+form > input.mainschbar {
+  position: relative;
+  width: 725px;
+  height: 56px;
+  margin-left: 221.794px;
+  margin-top: 34px;
+  background: transparent;
+  border: 5px solid #000000;
+  border-radius: 57px;
+}
+
+.locicon {
+  position: absolute;
+  width: 22px;
+  height: 28px;
+  top: 54px;
+  left: 375.83px;
+}
+
+.mainschbar::placeholder {
+  width: 134px;
+  height: 16px;
+  padding-left: 64.91px;
+  //text-indent: 64.91px;
+  padding-top: 20px;
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.mschbutton {
+  background: transparent;
+  border: none;
+  padding-left: 889.38px;
+}
+
+img.btn {
+  position: absolute;
+  width: 48px;
+  height: 45.6px;
+  z-index: 2;
+  top: 44.5px;
+  left: 1032.61px;
+}
+
+.btnshadow {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  z-index: 1;
+  top: 45.67px;
+  left: 1029.03px;
+}
+
+div.back {
+  width: 37px;
+  height: 28px;
+  margin-top: 34px;
+  padding-right: 90.344px;
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+div.container {
+  margin-left: 90.344px;
+  margin-top: 45.9px;
+  margin-right: 90.344px;
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+}
+
+div.clowncontainer {
+  z-index: 0;
+  width: 274.64px;
+  height: 398.33px;
+  background: #ffd600;
+  border: 2px solid #000000;
+  box-shadow: 3.85px 4.29px 0 0 #000000;
+  border-radius: 0px 0px 0px 40px;
+}
+
+.clowncontainer > .top-trate {
+  position: absolute;
+  display: flex;
+  z-index: 2;
+  background-color: #a2febc;
+  width: 95.22px;
+  height: 32.59px;
+  margin: 0.44px 0 0 0;
+  border: 1px solid #000000;
+  box-shadow: 2px 0.5px 0 0 #000000;
+}
+
+.top-trate > p {
+  width: 70px;
+  height: 16px;
+  margin: 8.3px 0 0 25.45px;
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.clowncontainer > .top-image {
+  z-index: 1;
+  margin: 19.56px 18.07px 98.77px 18.07px;
+  width: 238.5px;
+  height: 252.95px;
+  border-radius: 4px;
+}
+
+div.clowncontainer .tflex {
+  margin: -115px 18.07px 43.77px 18.07px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tflex > .tflex-left {
+  width: 39.54px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tflex-left > .top-head {
+  width: 174.65px;
+  height: 27px;
+  font-family: "Komika Axis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.tflex-left > .t-desc {
+  margin-top: -10px;
+  width: 167.675px;
+  height: 16px;
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}

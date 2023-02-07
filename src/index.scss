@@ -29,3 +29,10 @@ code {
   src: local("Komika Axis"),
     url("../src/Assets/Fonts/komika_axis/KOMIKAX_.ttf") format("truetype");
 }
+
+@import "mixins";
+
+.text-with-border {
+  @include webkit;
+  /* other styles */
+}
